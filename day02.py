@@ -1,12 +1,22 @@
-#number = 0b10011010 2진수
-#number = 0x9A 16진수
-#number= 0o232 8진수
-#print(number)
+#chap 4 : if
 
-number =154
-print(bin(number))
-print(hex(number))
-print(oct(number))
+limits = 20
+tweets = 'pass'*6
+diff =limits-len(tweets)
+#if diff := limits-len(tweets) >=0:
+if diff >= 0:
+    print(tweets)
+else:
+    print(f'글자 수 {abs(diff)} 초과 ')
 
-print(ord(" ")) #ascii
-print(hex(ord(" "))) # 20
+a = []
+vowels = 'aeiou'
+letter = 'x'
+if letter not in vowels:
+    print("실행 안됨!")
+
+print(bool(a))
+a.append(5)
+print(bool(a))
+print(bool(set()))
+print(bool(dict()))
