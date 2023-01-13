@@ -1,12 +1,12 @@
-print(2**5)
-print(pow(2,5))
-print(divmod(9,5))
-print(type(divmod(9,5)))
-print(type((1,2)))
-test=1,2 #packing
-print(type(test))
-print(test)
-print(test[1])
-a,b=test #unpacking
-print(a)
-print(b)
+#number = 0b10011010 2진수
+#number = 0x9A 16진수
+#number= 0o232 8진수
+#print(number)
+
+number =154
+print(bin(number))
+print(hex(number))
+print(oct(number))
+
+print(ord(" ")) #ascii
+print(hex(ord(" "))) # 20
